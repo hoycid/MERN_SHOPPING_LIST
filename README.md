@@ -1,0 +1,2 @@
+# MERN_SHOPPING_LIST
+MERN stack app
