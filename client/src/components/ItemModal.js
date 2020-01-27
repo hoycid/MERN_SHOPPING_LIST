@@ -55,7 +55,7 @@ class ItemModal extends Component {
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
                     <ModalHeader toggle={this.toggle}>Add to shopping list</ModalHeader>
                     <ModalBody>
-                        <form onSubmit={this.onSubmit}>
+                        <Form onSubmit={this.onSubmit}>
                             <FormGroup>
                                 <Label for="item">Item</Label>
                                 <Input
@@ -69,7 +69,7 @@ class ItemModal extends Component {
                                     Add item
                                 </Button>
                             </FormGroup>
-                        </form>
+                        </Form>
                     </ModalBody>
                 </Modal>
             </div>
